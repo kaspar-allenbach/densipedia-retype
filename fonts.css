@@ -1,0 +1,22 @@
+.newTypography {
+    .regular {
+        font-family: "adobe-caslon-pro", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .italic {
+        font-family: "adobe-caslon-pro", serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+    .bold {
+        font-family: "adobe-caslon-pro", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .boldItalic {
+        font-family: "adobe-caslon-pro", serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+}
