@@ -1,42 +1,12 @@
 :root {
-    --ff: "adobe-caslon-pro", serif;
+    --ff-txt: "adobe-garamond-pro", serif;
+    --ff-display: "freight-neo-pro", sans-serif;
     --fs-XS: 16px;
-    --fs-S: 16px;
-    --fs-M: 16px;
-    --fs-L: 16px;
-    --fs-XL: 16px;
-    --fs-XXL: 16px;
-}
-
-.newTypography {
-    .regular {
-        font-family: "adobe-caslon-pro", serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    .italic {
-        font-family: "adobe-caslon-pro", serif;
-        font-weight: 400;
-        font-style: italic;
-    }
-
-    .bold {
-        font-family: "adobe-caslon-pro", serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    .boldItalic {
-        font-family: "adobe-caslon-pro", serif;
-        font-weight: 700;
-        font-style: italic;
-    }
-
-    .text {
-        font-family: var(--ff);
-        font-size: var(--fs-M);
-    }
+    --fs-S: 19px;
+    --fs-M: 24px;
+    --fs-L: 28px;
+    --fs-XL: 45px;
+    --fs-XXL: 55px;
 }
 
 .devHeader {
@@ -52,3 +22,88 @@
         margin: 3px;
     }
 }
+
+.newTypography {
+    /* Navigation */
+    .menu-item a, .language-link {
+        font-family: var(--ff-txt) !important;
+        font-size: var(--fs-S) !important;
+    }
+    /* Slideshow */
+    .slick-pager-button .title{
+        font-family: var(--ff-txt) !important;
+        font-size: var(--fs-S) !important;
+        font-weight: 700;
+    }
+    /* Slideshow Title */
+    .region .content-container .title {
+        font-family: var(--ff-txt) !important;
+        font-size: var(--fs-XXL) !important;
+        line-height: 1 !important;
+        font-weight: 700;
+    }
+    /* Projekt Eintrag Card */
+    .node--type-project {
+        .location {
+            font-family: var(--ff-txt) !important;
+            font-size: var(--fs-S) !important;
+        }
+        .title {
+            font-family: var(--ff-txt) !important;
+            font-size: var(--fs-M) !important;
+            font-weight: 700;
+        }
+    }
+    /* Page Title */
+    .page-title, .view-header h2 {
+        font-family: var(--ff-display) !important;
+        font-size: var(--fs-XXL) !important;
+        line-height: 1 !important;
+        font-weight: 700;
+    }
+    /* Lead */
+    .field--name-field-lead {
+        font-family: var(--ff-txt) !important;
+        font-size: var(--fs-L) !important;
+        line-height: 1.2 !important;
+        font-weight: 700;
+    }
+    /* Lauftext */
+    .text, .paragraph p {
+        font-family: var(--ff-txt) !important;
+        font-size: var(--fs-M) !important;
+        line-height: 1.4 !important;
+    }
+    /* Zwischentitel Lauftext */
+    .paragraph h3 {
+        font-family: var(--ff-txt) !important;
+        font-size: var(--fs-L) !important;
+        line-height: 1.4 !important;
+        font-weight: 700;
+    }
+    /* Zitat */
+    .field--name-field-quote {
+        font-family: var(--ff-txt) !important;
+        font-size: var(--fs-XL) !important;
+        line-height: 1.4 !important;
+        font-weight: 700;
+        font-style: italic;
+    }
+    /* Bildlegende */
+    .field--name-field-caption {
+        font-family: var(--ff-txt) !important;
+        font-size: var(--fs-S) !important;
+        line-height: 1.2 !important;
+    }
+    /* Breadcrumb */
+    .breadcrumb li, .field--name-field-author {
+        font-family: var(--ff-txt) !important;
+        font-size: var(--fs-S) !important;
+    }
+    /* Pagination Button */
+    .load-more {
+        font-family: var(--ff-txt) !important;
+        font-size: var(--fs-S) !important;
+    }
+}
+
