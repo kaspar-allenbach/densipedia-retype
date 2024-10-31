@@ -1,6 +1,11 @@
 :root {
     --ff: "adobe-caslon-pro", serif;
+    --fs-XS: 16px;
+    --fs-S: 16px;
     --fs-M: 16px;
+    --fs-L: 16px;
+    --fs-XL: 16px;
+    --fs-XXL: 16px;
 }
 
 .newTypography {
@@ -40,7 +45,9 @@
     top: 0;
     z-index: 100;
     width: 100%;
-    p, a {
+
+    p,
+    a {
         color: white;
         margin: 3px;
     }
