@@ -1,175 +1,209 @@
 :root {
-    --ff-txt: "adobe-garamond-pro", serif;
+    --ff-txt: "source-serif-pro", serif;
     --ff-display: "ballinger", sans-serif;
     --fs-XS: 16px;
     --fs-S: 19px;
-    --fs-M: 24px;
-    --fs-L: 28px;
+    --fs-M: 22px;
+    --fs-L: 30px;
     --fs-XL: 45px;
-    --fs-XXL: 55px;
-}
+    --fs-XXL: 53px;
+    --ff-line-txt: 1.4;
+    --ff-line-display: 1.1;
 
-.devHeader {
-    background: black;
-    position: absolute;
-    top: 0;
-    z-index: 100;
-    width: 100%;
+    .devHeader {
+        background: black;
+        position: absolute;
+        top: 0;
+        z-index: 100;
+        width: 100%;
 
-    p,
-    a {
-        color: white;
-        margin: 3px;
-    }
-}
-
-.newTypography {
-
-    strong {
-        font-weight: 500 !important;
+        p,
+        a {
+            color: white;
+            margin: 3px;
+        }
     }
 
-    /* Navigation */
-    .menu-item a,
-    .language-link a {
-        font-family: var(--ff-display) !important;
-        font-size: var(--fs-S) !important;
-        font-weight: 500 !important;
-        letter-spacing: 0 !important;
-    }
-
-    /* Slideshow */
-    .slick-pager-button .title {
+    html,
+    body {
         font-family: var(--ff-txt) !important;
-        font-size: var(--fs-S) !important;
-        font-weight: 500;
+        font-size: var(--fs-M) !important;
+        line-height: var(--ff-line-txt) !important;
     }
 
-    /* Slideshow Title */
-    .region .content-container .title {
-        font-family: var(--ff-txt) !important;
-        font-size: var(--fs-XXL) !important;
-        line-height: 1 !important;
-        font-weight: 500;
-    }
+    .newTypography {
 
-    /* Projekt Eintrag Card */
-    .node--type-project {
-        .location {
+        strong {
+            font-weight: 500 !important;
+        }
+
+        /* Navigation */
+        .menu-item a,
+        .language-link a {
+            font-family: var(--ff-display) !important;
+            font-size: var(--fs-S) !important;
+            font-weight: 500 !important;
+            letter-spacing: 0 !important;
+        }
+
+        /* Map Selektor */
+        .facet-wrapper.focus .js-facets-checkbox-links li {
+            font-family: var(--ff-display) !important;
+            font-size: var(--fs-XS) !important;
+        }
+
+        /* Slideshow */
+        .slick-pager-button .title {
+            font-family: var(--ff-display) !important;
+            font-size: var(--fs-S) !important;
+            font-weight: 500 !important;
+        }
+
+        /* Slideshow Title */
+        .region .content-container .title {
+            font-family: var(--ff-txt) !important;
+            font-size: var(--fs-XXL) !important;
+            line-height: 1 !important;
+            font-weight: 500;
+        }
+
+        /* Projekt Eintrag Card */
+        .node--type-project {
+            .location {
+                font-family: var(--ff-txt) !important;
+                font-size: var(--fs-S) !important;
+            }
+
+            .title {
+                font-family: var(--ff-display) !important;
+                font-size: var(--fs-M) !important;
+                font-weight: 500 !important;
+            }
+        }
+
+        /* Header */
+        .header-container .content-container {
+            .title {
+                font-family: var(--ff-display) !important;
+                font-size: var(--fs-XXL) !important;
+                line-height: var(--ff-line-txt) !important;
+                font-weight: 500 !important;
+            }
+
+            .kicker {
+                font-family: var(--ff-txt) !important;
+                font-size: var(--fs-L) !important;
+                line-height: var(--ff-line-txt) !important;
+                font-weight: 400 !important;
+            }
+
+            .text {
+                font-weight: 400 !important;
+            }
+
+        }
+
+        /* Page Title */
+        .page-title,
+        .view-header h2 {
+            font-family: var(--ff-display) !important;
+            font-size: var(--fs-XXL) !important;
+            line-height: var(--ff-line-display) !important;
+            font-weight: 500 !important;
+        }
+
+        /* Lead */
+        .field--name-field-lead,
+        .field .field--name-field-lead .field--type-string-long .field--label-hidden .field__item {
+            font-family: var(--ff-txt) !important;
+            font-size: var(--fs-L) !important;
+            line-height: var(--ff-line-txt) !important;
+            font-weight: 600 !important;
+            font-style: italic;
+        }
+
+        /* Lauftext */
+        .text,
+        .paragraph p,
+        p {
+            font-family: var(--ff-txt) !important;
+            font-size: var(--fs-M) !important;
+            line-height: var(--ff-line-txt) !important;
+            font-weight: 400 !important;
+        }
+
+        /* Zwischentitel Lauftext */
+        .paragraph h3 {
+            font-family: var(--ff-display) !important;
+            font-size: var(--fs-L) !important;
+            line-height: var(--ff-line-txt) !important;
+            font-weight: 500 !important;
+        }
+
+        /* Zitat */
+        .field--name-field-quote {
+            font-family: var(--ff-txt) !important;
+            font-size: var(--fs-XL) !important;
+            line-height: 1.2 !important;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        /* Bildlegende */
+        .field--name-field-caption {
+            font-family: var(--ff-txt) !important;
+            font-size: var(--fs-S) !important;
+            line-height: var(--ff-line-txt) !important;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb li,
+        .field--name-field-author {
             font-family: var(--ff-txt) !important;
             font-size: var(--fs-S) !important;
         }
 
-        .title {
+        /* Pagination Button */
+        .load-more {
             font-family: var(--ff-txt) !important;
-            font-size: var(--fs-M) !important;
-            font-weight: 500;
-        }
-    }
-
-    /* Header */
-    .header-container .content-container {
-        .title {
-            font-family: var(--ff-display) !important;
-            font-size: var(--fs-XXL) !important;
-            line-height: 1 !important;
-            font-weight: 500 !important;
+            font-size: var(--fs-S) !important;
         }
 
-        .kicker {
+        /* Card tile */
+        .node--type-page.node--view-mode-tile {
+            .teaser-title h2 {
+                font-family: var(--ff-display) !important;
+                font-size: var(--fs-M) !important;
+                line-height: var(--ff-line-txt) !important;
+                font-weight: 500 !important;
+            }
+
+            .teaser-lead, .teaser-topic {
+                font-family: var(--ff-txt) !important;
+                font-size: var(--fs-XS) !important;
+                line-height: var(--ff-line-txt) !important;
+            }
+        }
+
+        /* CTA */
+        .contact-us {
+            .label {
+                font-family: var(--ff-display) !important;
+                font-size: var(--fs-L) !important;
+                line-height: 2 !important;
+                font-weight: 500 !important;
+            }
+
+            a {
+                font-family: var(--ff-txt) !important;
+                font-size: var(--fs-M) !important;
+            }
+        }
+
+        footer nav ul.menu li a,
+        .previon-plus-link .text {
             font-family: var(--ff-txt) !important;
-            font-size: var(--fs-L) !important;
-            line-height: 1.2 !important;
+            font-size: var(--fs-m) !important;
             font-weight: 400 !important;
         }
-
-        .text {
-            font-weight: 400 !important;
-        }
-
     }
-
-    /* Page Title */
-    .page-title,
-    .view-header h2 {
-        font-family: var(--ff-display) !important;
-        font-size: var(--fs-XXL) !important;
-        line-height: 1 !important;
-        font-weight: 500 !important;
-    }
-
-    /* Lead */
-    .field--name-field-lead {
-        font-family: var(--ff-txt) !important;
-        font-size: var(--fs-L) !important;
-        line-height: 1.2 !important;
-        font-weight: 400;
-    }
-
-    /* Lauftext */
-    .text,
-    .paragraph p {
-        font-family: var(--ff-txt) !important;
-        font-size: var(--fs-M) !important;
-        line-height: 1.4 !important;
-    }
-
-    /* Zwischentitel Lauftext */
-    .paragraph h3 {
-        font-family: var(--ff-display) !important;
-        font-size: var(--fs-L) !important;
-        line-height: 1.4 !important;
-        font-weight: 500 !important;
-    }
-
-    /* Zitat */
-    .field--name-field-quote {
-        font-family: var(--ff-txt) !important;
-        font-size: var(--fs-XL) !important;
-        line-height: 1.4 !important;
-        font-weight: 500;
-        font-style: italic;
-    }
-
-    /* Bildlegende */
-    .field--name-field-caption {
-        font-family: var(--ff-txt) !important;
-        font-size: var(--fs-S) !important;
-        line-height: 1.2 !important;
-    }
-
-    /* Breadcrumb */
-    .breadcrumb li,
-    .field--name-field-author {
-        font-family: var(--ff-txt) !important;
-        font-size: var(--fs-S) !important;
-    }
-
-    /* Pagination Button */
-    .load-more {
-        font-family: var(--ff-txt) !important;
-        font-size: var(--fs-S) !important;
-    }
-
-    /* CTA */
-    .contact-us {
-        .label {
-            font-family: var(--ff-display) !important;
-            font-size: var(--fs-L) !important;
-            line-height: 2 !important;
-            font-weight: 500 !important;
-        }
-
-        a {
-            font-family: var(--ff-txt) !important;
-            font-size: var(--fs-M) !important;
-        }
-    }
-
-    footer nav ul.menu li a,
-    .previon-plus-link .text {
-        font-family: var(--ff-txt) !important;
-        font-size: var(--fs-m) !important;
-        font-weight: 400 !important;
-    }
-}
