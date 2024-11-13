@@ -1,6 +1,6 @@
 :root {
     --ff-txt: "adobe-garamond-pro", serif;
-    --ff-display: "freight-neo-pro", sans-serif;
+    --ff-display: "ballinger", sans-serif;
     --fs-XS: 16px;
     --fs-S: 19px;
     --fs-M: 24px;
@@ -24,86 +24,137 @@
 }
 
 .newTypography {
+
+    strong {
+        font-weight: 500 !important;
+    }
+
     /* Navigation */
-    .menu-item a, .language-link {
-        font-family: var(--ff-txt) !important;
+    .menu-item a,
+    .language-link a {
+        font-family: var(--ff-display) !important;
         font-size: var(--fs-S) !important;
+        font-weight: 500 !important;
     }
+
     /* Slideshow */
-    .slick-pager-button .title{
+    .slick-pager-button .title {
         font-family: var(--ff-txt) !important;
         font-size: var(--fs-S) !important;
-        font-weight: 700;
+        font-weight: 500;
     }
+
     /* Slideshow Title */
     .region .content-container .title {
         font-family: var(--ff-txt) !important;
         font-size: var(--fs-XXL) !important;
         line-height: 1 !important;
-        font-weight: 700;
+        font-weight: 500;
     }
+
     /* Projekt Eintrag Card */
     .node--type-project {
         .location {
             font-family: var(--ff-txt) !important;
             font-size: var(--fs-S) !important;
         }
+
         .title {
             font-family: var(--ff-txt) !important;
             font-size: var(--fs-M) !important;
-            font-weight: 700;
+            font-weight: 500;
         }
     }
+
+    /* Header */
+    .header-container .content-container {
+        .title {
+            font-family: var(--ff-display) !important;
+            font-size: var(--fs-XXL) !important;
+            line-height: 1 !important;
+            font-weight: 500 !important;
+        }
+
+        .text {
+            font-weight: 400 !important;
+        }
+
+    }
+
     /* Page Title */
-    .page-title, .view-header h2 {
+    .page-title,
+    .view-header h2 {
         font-family: var(--ff-display) !important;
         font-size: var(--fs-XXL) !important;
         line-height: 1 !important;
-        font-weight: 700;
+        font-weight: 500 !important;
     }
+
     /* Lead */
     .field--name-field-lead {
         font-family: var(--ff-txt) !important;
         font-size: var(--fs-L) !important;
         line-height: 1.2 !important;
-        font-weight: 700;
+        font-weight: 500;
     }
+
     /* Lauftext */
-    .text, .paragraph p {
+    .text,
+    .paragraph p {
         font-family: var(--ff-txt) !important;
         font-size: var(--fs-M) !important;
         line-height: 1.4 !important;
     }
+
     /* Zwischentitel Lauftext */
     .paragraph h3 {
-        font-family: var(--ff-txt) !important;
+        font-family: var(--ff-display) !important;
         font-size: var(--fs-L) !important;
         line-height: 1.4 !important;
-        font-weight: 700;
+        font-weight: 500 !important;
     }
+
     /* Zitat */
     .field--name-field-quote {
         font-family: var(--ff-txt) !important;
         font-size: var(--fs-XL) !important;
         line-height: 1.4 !important;
-        font-weight: 700;
+        font-weight: 500;
         font-style: italic;
     }
+
     /* Bildlegende */
     .field--name-field-caption {
         font-family: var(--ff-txt) !important;
         font-size: var(--fs-S) !important;
         line-height: 1.2 !important;
     }
+
     /* Breadcrumb */
-    .breadcrumb li, .field--name-field-author {
+    .breadcrumb li,
+    .field--name-field-author {
         font-family: var(--ff-txt) !important;
         font-size: var(--fs-S) !important;
     }
+
     /* Pagination Button */
     .load-more {
         font-family: var(--ff-txt) !important;
         font-size: var(--fs-S) !important;
     }
-}
 
+    /* CTA */
+    .contact-us {
+        .label {
+            font-family: var(--ff-display) !important;
+            font-size: var(--fs-L) !important;
+            line-height: 2 !important;
+            font-weight: 500 !important;
+        }
+
+        a {
+            font-family: var(--ff-txt) !important;
+            font-size: var(--fs-M) !important;
+        }
+    }
+}
