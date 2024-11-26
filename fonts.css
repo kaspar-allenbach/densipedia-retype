@@ -1,12 +1,14 @@
 :root {
     --ff-txt: "source-serif-pro", serif;
-    --ff-display: "ballinger", sans-serif;
+    --ff-display: "halyard-display", sans-serif;
+    --ff-display-bold: 300;
+    --ff-txt-regular: 400;
     --fs-XS: 16px;
     --fs-S: 19px;
     --fs-M: 22px;
-    --fs-L: 30px;
-    --fs-XL: 45px;
-    --fs-XXL: 53px;
+    --fs-L: 40px;
+    --fs-XL: 55px;
+    --fs-XXL: 70px;
     --ff-line-txt: 1.4;
     --ff-line-display: 1.1;
 
@@ -34,14 +36,14 @@
     .newTypography {
 
         strong {
-            font-weight: 500 !important;
+            font-weight: var(--ff-display-bold) !important;
         }
 
         /* Navigation */
         .menu-item a {
             font-family: var(--ff-display) !important;
             font-size: var(--fs-S) !important;
-            font-weight: 500 !important;
+            font-weight: var(--ff-display-bold) !important;
             letter-spacing: 0 !important;
         }
 
@@ -57,7 +59,7 @@
         .form-type-textfield .form-text {
             font-family: var(--ff-display) !important;
             font-size: var(--fs-XS) !important;
-            font-weight: 400 !important;
+            font-weight: var(--ff-txt-regular) !important;
         }
 
         .filter-container .view-filters .zoom-info {
@@ -68,7 +70,7 @@
         .slick-pager-button .title {
             font-family: var(--ff-display) !important;
             font-size: var(--fs-S) !important;
-            font-weight: 500 !important;
+            font-weight: var(--ff-display-bold) !important;
         }
 
         /* Slideshow Title */
@@ -76,7 +78,7 @@
             font-family: var(--ff-txt) !important;
             font-size: var(--fs-XXL) !important;
             line-height: 1 !important;
-            font-weight: 500;
+            font-weight: var(--ff-display-bold);
         }
 
         /* Projekt Eintrag Card */
@@ -90,7 +92,7 @@
             .title {
                 font-family: var(--ff-display) !important;
                 font-size: var(--fs-M) !important;
-                font-weight: 500 !important;
+                font-weight: var(--ff-display-bold) !important;
             }
         }
 
@@ -100,14 +102,14 @@
                 font-family: var(--ff-display) !important;
                 font-size: var(--fs-XXL) !important;
                 line-height: var(--ff-line-txt) !important;
-                font-weight: 500 !important;
+                font-weight: var(--ff-display-bold) !important;
             }
 
             .text {
                 font-family: var(--ff-display) !important;
                 font-size: var(--fs-L) !important;
                 line-height: var(--ff-line-txt) !important;
-                font-weight: 400 !important;
+                font-weight: var(--ff-txt-regular) !important;
                 font-style: normal !important;
             }
 
@@ -119,14 +121,14 @@
             font-family: var(--ff-display) !important;
             font-size: var(--fs-XXL) !important;
             line-height: var(--ff-line-display) !important;
-            font-weight: 500 !important;
+            font-weight: var(--ff-display-bold) !important;
         }
 
         /* Lead */
         .field--name-field-lead,
         .field .field--name-field-lead .field--type-string-long .field--label-hidden .field__item {
             font-family: var(--ff-txt) !important;
-            font-size: var(--fs-L) !important;
+            font-size: var(--fs-M) !important;
             line-height: var(--ff-line-txt) !important;
             font-weight: 600 !important;
             font-style: italic;
@@ -139,7 +141,7 @@
             font-family: var(--ff-txt) !important;
             font-size: var(--fs-M) !important;
             line-height: var(--ff-line-txt) !important;
-            font-weight: 400 !important;
+            font-weight: var(--ff-txt-regular) !important;
         }
 
         /* Zwischentitel Lauftext */
@@ -147,7 +149,7 @@
             font-family: var(--ff-display) !important;
             font-size: var(--fs-L) !important;
             line-height: var(--ff-line-txt) !important;
-            font-weight: 500 !important;
+            font-weight: var(--ff-display-bold) !important;
         }
 
         /* Zitat */
@@ -155,7 +157,7 @@
             font-family: var(--ff-txt) !important;
             font-size: var(--fs-XL) !important;
             line-height: 1.2 !important;
-            font-weight: 400;
+            font-weight: var(--ff-txt-regular);
             font-style: italic;
         }
 
@@ -178,8 +180,9 @@
         .load-more {
             font-family: var(--ff-display) !important;
             font-size: var(--fs-S) !important;
-            font-weight: 500 !important;
+            font-weight: var(--ff-display-bold) !important;
             padding: 18px 41px 13px !important;
+            font-weight: var(--ff-display-bold) !important;
         }
 
         /* Card tile */
@@ -188,7 +191,7 @@
                 font-family: var(--ff-display) !important;
                 font-size: var(--fs-M) !important;
                 line-height: var(--ff-line-txt) !important;
-                font-weight: 500 !important;
+                font-weight: var(--ff-display-bold) !important;
             }
 
             .teaser-lead,
@@ -201,7 +204,7 @@
             .field__item {
                 font-family: var(--ff-display) !important;
                 font-size: var(--fs-XS) !important;
-                font-weight: 400 !important;
+                font-weight: var(--ff-txt-regular) !important;
             }
         }
 
@@ -218,7 +221,7 @@
                 font-family: var(--ff-display) !important;
                 font-size: var(--fs-L) !important;
                 line-height: 2 !important;
-                font-weight: 500 !important;
+                font-weight: var(--ff-display-bold) !important;
             }
 
             a {
@@ -231,6 +234,6 @@
         .previon-plus-link .text {
             font-family: var(--ff-display) !important;
             font-size: var(--fs-S) !important;
-            font-weight: 400 !important;
+            font-weight: var(--ff-txt-regular) !important;
         }
     }
