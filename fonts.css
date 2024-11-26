@@ -197,6 +197,19 @@
                 font-size: var(--fs-XS) !important;
                 line-height: var(--ff-line-txt) !important;
             }
+
+            .field__item {
+                font-family: var(--ff-display) !important;
+                font-size: var(--fs-XS) !important;
+                font-weight: 400 !important;
+            }
+        }
+
+        /* Grey special Block */
+        .block-system-main-block ul li {
+            font-family: var(--ff-txt) !important;
+            font-size: var(--fs-M) !important;
+            line-height: var(--ff-line-txt) !important;
         }
 
         /* CTA */
