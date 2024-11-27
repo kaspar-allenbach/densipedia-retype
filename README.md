@@ -3,7 +3,7 @@
 Die Densipedia website erhält eine neue Schrift.
 Die Einbindung findet via Adobe Fonts mittels Fontlizenz von EspaceSuisse statt.
 
-** Intro Screencast: https://capture.dropbox.com/aX4P5syZcZGl4PXj **
+* Intro Screencast: https://capture.dropbox.com/aX4P5syZcZGl4PXj *
 
 # Website anschauen
 
