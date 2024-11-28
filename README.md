@@ -23,7 +23,9 @@ Der CSS Code wird vermutlich unbenutzbar sein, aber da kann man die Schriften ra
 # Typografisches Konzept
 
 Die Schriften kommen über den Adobe Font Service. EspaceSuisse hält dazu eine Adobe Liezenz
-`<link rel="stylesheet" href="https://use.typekit.net/{{ adobeID }}.css" />`
+```
+<link rel="stylesheet" href="https://use.typekit.net/{{ adobeID }}.css" />
+```
 
 ## Schriftarten
 
