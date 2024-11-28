@@ -11,7 +11,8 @@
     --fs-XXL: 70px;
     --ff-line-txt: 1.4;
     --ff-line-display: 1.1;
-
+    
+    /* Reingehackte Stildefinidtionen */
     .devHeader {
         background: black;
         position: absolute;
@@ -25,7 +26,7 @@
             margin: 3px;
         }
     }
-
+    
     html,
     body {
         font-family: var(--ff-txt) !important;
